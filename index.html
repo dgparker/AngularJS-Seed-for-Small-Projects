@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Angular Seed for Small Projects</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+</head>
+<body>
+    <div>
+        <ul>
+            <a href="#!/home"><li>Home</li></a>
+            <a href="#!/about"><li>About</li></a>
+            <a href="#!/contact"><li>Contact</li></a>
+        </ul>
+    </div>
+
+    <div ng-view></div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="js/controllers/AboutController.js"></script>
+    <script type="text/javascript" src="js/controllers/ContactController.js"></script>
+    <script type="text/javascript" src="js/directives/HomeDirective.js"></script>
+    <script type="text/javascript" src="js/directives/AboutDirective.js"></script>
+    <script type="text/javascript" src="js/directives/ContactDirective.js"></script>
+</body>
+</html>
