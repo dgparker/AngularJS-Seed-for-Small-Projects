@@ -16,7 +16,7 @@ You should be up and running at this point and have a nice starting point for yo
 
 ---------------------------------------------
 
-Notes: This was honestly created out of need for myself to try and remove the hassle of
+This was honestly created out of need for myself to try and remove the hassle of
 of prototyping and testing random things within Angular, as well as to save time when starting 
 relatively small projects.
   
