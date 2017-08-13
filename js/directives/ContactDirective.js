@@ -1,3 +1,3 @@
-angular.module('app').directive('ContactDirective', function ($scope) {
+angular.module('app').directive('contactDirective', function ($scope) {
 
 });

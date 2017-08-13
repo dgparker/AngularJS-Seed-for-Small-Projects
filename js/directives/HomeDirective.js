@@ -1,3 +1,3 @@
-angular.module('app').directive('HomeDirective', function ($scope) {
+angular.module('app').directive('homeDirective', function ($scope) {
 
 });

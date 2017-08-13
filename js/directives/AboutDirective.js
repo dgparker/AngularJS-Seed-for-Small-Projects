@@ -1,3 +1,3 @@
-angular.module('app').directive('AboutDirective', function ($scope) {
+angular.module('app').directive('aboutDirective', function ($scope) {
 
 });
