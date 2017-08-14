@@ -1,13 +1,13 @@
 angular.module('app', ['ngRoute']).
     config(['$routeProvider', function($routeProvider){
         $routeProvider
-        .when('/home', {
-            templateUrl: 'views/home.html'
+        .when('/viewOne', {
+            templateUrl: 'views/viewOne.html'
         })
-        .when('/about', {
-            templateUrl: 'views/about.html'
+        .when('/viewTwo', {
+            templateUrl: 'views/viewTwo.html'
         })
-        .when('/contact', {
-            templateUrl: 'views/contact.html'
+        .when('/viewThree', {
+            templateUrl: 'views/viewThree.html'
         })
     }]);
