@@ -1,3 +1,5 @@
+// Directives will handle any DOM manipulation and add any
+// additional behavior we need for our components
 function simpleFade() {
   function link(scope, element, attrs) {
     element.hide();
