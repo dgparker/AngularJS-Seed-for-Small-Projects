@@ -13,11 +13,11 @@
 </head>
 
 <body ng-controller="MainController as main">
-    <div site-header></div>
+    <site-header></site-header>
     <main>
         <div ng-view></div>
     </main>
-    <div site-footer></div>
+    <site-footer></site-footer>
 
     <!-- Import library JS files -->
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
@@ -28,19 +28,19 @@
     <script src="/app/app.js"></script>
     <script src="/app/Controllers/main.controller.js"></script>
     <script src="/app/components/site-header/site-header.controller.js"></script>
-    <script src="/app/components/site-header/site-header.directive.js"></script>
+    <script src="/app/components/site-header/site-header.component.js"></script>
     <script src="/app/components/site-footer/site-footer.controller.js"></script>
-    <script src="/app/components/site-footer/site-footer.directive.js"></script>
+    <script src="/app/components/site-footer/site-footer.component.js"></script>
     <script src="/app/services/header-and-footer.service.js"></script>
     <script src="/app/components/hero-panel/hero-panel.controller.js"></script>
-    <script src="/app/components/hero-panel/hero-panel.directive.js"></script>
+    <script src="/app/components/hero-panel/hero-panel.component.js"></script>
     <script src="/app/components/brag-space/brag-space.controller.js"></script>
-    <script src="/app/components/brag-space/brag-space.directive.js"></script>
+    <script src="/app/components/brag-space/brag-space.component.js"></script>
     <script src="/app/components/collection-table/collection-table.controller.js"></script>
-    <script src="/app/components/collection-table/collection-table.directive.js"></script>
+    <script src="/app/components/collection-table/collection-table.component.js"></script>
     <script src="/app/components/collection-table/collection-table.service.js"></script>
     <script src="/app/components/example-component/example-component.controller.js"></script>
-    <script src="/app/components/example-component/example-component.directive.js"></script>
+    <script src="/app/components/example-component/example-component.component.js"></script>
     <script src="/app/components/example-component/example-component.service.js"></script>
     <!-- Import plugin intialization script -->
     <script src="/scripts/plugin-inits.js"></script>

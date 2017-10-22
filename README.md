@@ -1,21 +1,14 @@
 # Angular-Seed-for-Small-Projects
-A simple angular seed for small projects 
+A simple angularJS seed app.
 
-This seed provides a super simple template for getting small projects up and running with Angular 1.6.5
-The seed uses angular route so you'll have to setup a simple http server in order to properly run it.
+This angularJS seed aims to be a starting point for future projects. This also serves
+as an example for introducing the new 'component' approach to angularJS.
 
-You can use npm to install http-server and host a local web server
+A component will generally consist of a Controller, Directive with a template, and a Service (if it's relevant)
 
-To install http-server globally: 
-  npm install -g http-server
-
-To start the server cd into your project folder and type:
-  http-server -o
-  
-You should be up and running at this point and have a nice starting point for your next project.
 
 ---------------------------------------------
 
 This was honestly created out of need for myself to try and remove the hassle of
-prototyping and testing random things within Angular, as well as to save time when starting 
+prototyping and testing random things within Angular, as well as to save time when starting
 relatively small projects.
