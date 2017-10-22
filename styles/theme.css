@@ -1,0 +1,12 @@
+main {
+  min-height: 75vh;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.head-room {
+  margin-top: 25vh;
+}

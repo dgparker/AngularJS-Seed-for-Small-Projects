@@ -1,0 +1,20 @@
+<header>
+    <nav class="light-blue lighten-1">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li ng-repeat="link in shc.links">
+                    <a href="{{ link.Path }}">{{ link.Name }}</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li>
+                    <a href="{{ link.Path }}">{{ link.Name }}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
