@@ -4,28 +4,32 @@
   "description": "A straight forward seed for small AngularJS projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "precommit": "pretty-quick --staged"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dgparker/Angular-Seed-for-Small-Projects.git"
   },
-  "keywords": [
-    "AngularJS",
-    "seed",
-    "project"
-  ],
+  "keywords": ["AngularJS", "seed", "project"],
   "author": "Dylan Parker",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dgparker/Angular-Seed-for-Small-Projects/issues"
   },
-  "homepage": "https://github.com/dgparker/Angular-Seed-for-Small-Projects#readme",
+  "homepage":
+    "https://github.com/dgparker/Angular-Seed-for-Small-Projects#readme",
   "dependencies": {
     "angular": "^1.6.6",
     "angular-route": "^1.6.6",
     "jquery": "^3.2.1",
     "lite-server": "^2.3.0",
     "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.10.2",
+    "pretty-quick": "^1.2.2"
   }
 }
